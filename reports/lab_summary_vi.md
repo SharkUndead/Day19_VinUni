@@ -360,19 +360,7 @@ python scripts\query_flat_rag.py "Which AI companies were co-founded by former G
 | Visualization/export graph | Da co GraphML va text edges |
 | Report | Da co `reports/report.md` va file tong hop nay |
 
-## 10. Neu phai trinh bay voi giang vien
 
-Co the noi ngan gon:
-
-> Em xay dung mot pipeline GraphRAG offline tren corpus 12 cong ty AI. Dau tien em trich xuat 105 triples tu corpus, sau do build Knowledge Graph gom 84 nodes va 105 edges. Khi truy van, GraphRAG tim seed node trong cau hoi, duyet graph 2-hop bang BFS, chuyen subgraph thanh context va sinh cau tra loi. Em so sanh voi Flat RAG tren 20 cau hoi benchmark. Ket qua Flat RAG dat 70% accuracy, GraphRAG dat 100%, cai thien 30 diem phan tram. Dieu nay cho thay GraphRAG xu ly cau hoi multi-hop tot hon vi no dua vao quan he co cau truc thay vi chi retrieve text gan nghia.
-
-## 11. Huong nang cap neu con thoi gian
-
-- Thay corpus demo bang 10 bai Wikipedia that.
-- Dung LLM de extract triples thay vi rule-based extraction.
-- Import `knowledge_graph.graphml` hoac `triples.csv` vao Neo4j de chup anh graph dep hon.
-- Lay token usage that tu API response thay cho uoc tinh token theo ky tu.
-- Them nhieu cau hoi kho hon vao benchmark.
 
 ## 12. Ket luan
 
