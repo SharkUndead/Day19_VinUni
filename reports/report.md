@@ -4,7 +4,9 @@
 
 - Corpus: offline Tech Company Corpus sample in `data/raw/tech_company_corpus.txt` with 12 company summaries, enough for the 10-document lab scope
 - Entity/relation extraction: deterministic rule-based extraction for reproducible lab demo
+- Optional LLM-based NER: `scripts/extract_triples_llm.py --provider openai` or `--provider groq`
 - Graph backend: local directed knowledge graph exported as GraphML
+- Node embeddings: local hashed vectors from each node neighborhood
 - Flat RAG backend: lexical top-k retrieval baseline
 - GraphRAG retrieval strategy: seed-node matching + 2-hop BFS + graph fact synthesis
 
@@ -14,6 +16,9 @@
 - Edges/triples: 105
 - Graph export: `data/processed/knowledge_graph.graphml`
 - Text visualization: `reports/figures/knowledge_graph_edges.txt`
+- Node embeddings: `data\embeddings\node_embeddings.json`
+- Node similarity table: `data\embeddings\node_similarity.csv`
+- Visualization image: `reports\figures\knowledge_graph.svg`
 
 ## 3. Benchmark Summary
 

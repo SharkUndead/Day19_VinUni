@@ -17,8 +17,8 @@ class BenchmarkResult:
     graphrag_answer: str
     flat_rag_correct: bool
     graphrag_correct: bool
-    flat_rag_latency_ms: int
-    graphrag_latency_ms: int
+    flat_rag_latency_ms: float
+    graphrag_latency_ms: float
     flat_rag_cost_usd: float = 0.0
     graphrag_cost_usd: float = 0.0
     notes: str = ""

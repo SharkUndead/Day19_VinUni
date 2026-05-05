@@ -89,6 +89,9 @@ src/graphrag_lab/flat_rag.py      # Flat RAG baseline
 src/graphrag_lab/graphrag.py      # GraphRAG answering
 src/graphrag_lab/benchmark.py     # Chay benchmark
 src/graphrag_lab/costing.py       # Uoc tinh chi phi API
+src/graphrag_lab/llm.py           # Goi OpenAI/Groq neu co API key
+src/graphrag_lab/llm_extraction.py # LLM-based NER optional
+src/graphrag_lab/embeddings.py    # Tao node embeddings local
 scripts/run_lab.py                # Chay toan bo pipeline
 ```
 
@@ -148,6 +151,15 @@ Wrote 105 triples
 
 Ly do lam the nay: Knowledge Graph can cac canh co cau truc. Triple la cach bieu dien don gian va de import sang NetworkX/Neo4j.
 
+Ngoai ban offline rule-based, project da co them script LLM-based NER:
+
+```powershell
+python scripts\extract_triples_llm.py --provider openai
+python scripts\extract_triples_llm.py --provider groq
+```
+
+Khuyen dung OpenAI cho ban nop cuoi neu can JSON on dinh. Groq phu hop de thu nghiem nhanh va tiet kiem chi phi.
+
 ### Buoc 3: Xay dung Knowledge Graph
 
 Tu 105 triples, he thong tao graph:
@@ -162,9 +174,42 @@ Output:
 ```text
 data/processed/knowledge_graph.graphml
 reports/figures/knowledge_graph_edges.txt
+reports/figures/knowledge_graph.svg
 ```
 
 Ly do dung GraphML: day la dinh dang pho bien, co the mo bang cong cu graph visualization nhu Gephi, yEd, hoac import vao Neo4j sau.
+
+Project cung co script visualization:
+
+```powershell
+python scripts\generate_visualization.py
+```
+
+Neu may da cai `networkx` va `matplotlib`, script se xuat:
+
+```text
+reports/figures/knowledge_graph_networkx.png
+```
+
+Neu chua cai, script tu dong tao SVG fallback:
+
+```text
+reports/figures/knowledge_graph.svg
+reports/figures/knowledge_graph.html
+```
+
+### Buoc 3.5: Them node embeddings
+
+Project da tao node embeddings local tu neighborhood cua moi node.
+
+Output:
+
+```text
+data/embeddings/node_embeddings.json
+data/embeddings/node_similarity.csv
+```
+
+Ly do lam the nay: de dap ung yeu cau "them embeddings cho nodes". Trong ban offline, embeddings la local hashed vectors, khong ton API cost. Neu can ban production, co the thay bang OpenAI embeddings hoac embedding model khac.
 
 ### Buoc 4: Xay dung Flat RAG baseline
 
@@ -352,15 +397,28 @@ python scripts\query_flat_rag.py "Which AI companies were co-founded by former G
 | Tao corpus cong ty AI | Da co 12 tom tat |
 | Trich xuat entity/relation | Da co 105 triples |
 | Build Knowledge Graph | Da co 84 nodes, 105 edges |
+| Them embeddings cho nodes | Da co local node embeddings |
 | Graph traversal 2-hop | Da co trong GraphRAG |
 | Flat RAG baseline | Da co |
 | Benchmark 20 cau hoi | Da co |
 | Accuracy comparison | Da co |
 | Cost estimate | Da co |
-| Visualization/export graph | Da co GraphML va text edges |
+| Visualization/export graph | Da co GraphML, text edges, SVG/HTML fallback; PNG NetworkX neu cai du thu vien |
 | Report | Da co `reports/report.md` va file tong hop nay |
 
+## 10. Neu phai trinh bay voi giang vien
 
+Co the noi ngan gon:
+
+> Em xay dung mot pipeline GraphRAG offline tren corpus 12 cong ty AI. Dau tien em trich xuat 105 triples tu corpus, sau do build Knowledge Graph gom 84 nodes va 105 edges. Khi truy van, GraphRAG tim seed node trong cau hoi, duyet graph 2-hop bang BFS, chuyen subgraph thanh context va sinh cau tra loi. Em so sanh voi Flat RAG tren 20 cau hoi benchmark. Ket qua Flat RAG dat 70% accuracy, GraphRAG dat 100%, cai thien 30 diem phan tram. Dieu nay cho thay GraphRAG xu ly cau hoi multi-hop tot hon vi no dua vao quan he co cau truc thay vi chi retrieve text gan nghia.
+
+## 11. Huong nang cap neu con thoi gian
+
+- Thay corpus demo bang 10 bai Wikipedia that.
+- Dung LLM de extract triples thay vi rule-based extraction.
+- Import `knowledge_graph.graphml` hoac `triples.csv` vao Neo4j de chup anh graph dep hon.
+- Lay token usage that tu API response thay cho uoc tinh token theo ky tu.
+- Them nhieu cau hoi kho hon vao benchmark.
 
 ## 12. Ket luan
 

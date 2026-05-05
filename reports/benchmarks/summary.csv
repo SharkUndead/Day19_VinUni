@@ -1,7 +1,7 @@
 metric,value
 flat_accuracy,0.7
 graph_accuracy,1.0
-flat_avg_latency_ms,0.0
-graph_avg_latency_ms,0.0
+flat_avg_latency_ms,0.04550500034383731
+graph_avg_latency_ms,0.03422499994485406
 flat_cost_usd,0.002436
 graph_cost_usd,0.0038248000000000006

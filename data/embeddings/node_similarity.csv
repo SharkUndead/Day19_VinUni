@@ -1,0 +1,421 @@
+node,similar_node,cosine_similarity
+"1975","Microsoft",0.678401
+"1975","Google",0.569442
+"1975","2021",0.516398
+"1975","Redmond",0.500000
+"1975","2023",0.500000
+"1993","Nvidia",0.548151
+"1993","2023",0.500000
+"1993","2019",0.500000
+"1993","2015",0.500000
+"1993","2010",0.500000
+"1998","Google",0.623675
+"1998","2021",0.516398
+"1998","2023",0.500000
+"1998","2019",0.500000
+"1998","2015",0.500000
+"2004","Meta",0.699378
+"2004","Llama",0.577350
+"2004","2021",0.516398
+"2004","2023",0.500000
+"2004","2019",0.500000
+"2010","DeepMind",0.604743
+"2010","2021",0.516398
+"2010","London",0.500000
+"2010","2023",0.500000
+"2010","2019",0.500000
+"2015","2023",0.750000
+"2015","OpenAI",0.699441
+"2015","Greg Brockman",0.670821
+"2015","2021",0.516398
+"2015","2019",0.500000
+"2019","Cohere",0.703527
+"2019","2021",0.516398
+"2019","Toronto",0.500000
+"2019","2023",0.500000
+"2019","2015",0.500000
+"2021","Character AI",0.669439
+"2021","2022",0.608581
+"2021","Anthropic",0.555556
+"2021","2023",0.516398
+"2021","2019",0.516398
+"2022","Perplexity AI",0.688999
+"2022","Inflection AI",0.653538
+"2022","2021",0.608581
+"2022","Karen Simonyan",0.589256
+"2022","Character AI",0.555556
+"2023","2015",0.750000
+"2023","xAI",0.693375
+"2023","2021",0.516398
+"2023","2019",0.500000
+"2023","2010",0.500000
+"Aidan Gomez","Google",0.532107
+"Aidan Gomez","Cohere",0.467100
+"Aidan Gomez","Nick Frosst",0.466667
+"Aidan Gomez","Sergey Brin",0.461881
+"Aidan Gomez","Daniel De Freitas",0.461881
+"AlphaFold","AlphaGo",0.666666
+"AlphaFold","DeepMind",0.567366
+"AlphaFold","Llama",0.333333
+"AlphaFold","Grok",0.333333
+"AlphaFold","Gemini",0.333333
+"AlphaGo","AlphaFold",0.666666
+"AlphaGo","DeepMind",0.567366
+"AlphaGo","Llama",0.333333
+"AlphaGo","Grok",0.333333
+"AlphaGo","Gemini",0.333333
+"Amazon","Nvidia",0.520022
+"Amazon","Anthropic",0.435465
+"Amazon","2023",0.316228
+"Amazon","2015",0.316228
+"Amazon","2021",0.244949
+"Andy Konwinski","Perplexity AI",0.795586
+"Andy Konwinski","Johnny Ho",0.666666
+"Andy Konwinski","Denis Yarats",0.666666
+"Andy Konwinski","Karen Simonyan",0.612372
+"Andy Konwinski","Chris Malachowsky",0.547723
+"Anthropic","artificial intelligence safety company",0.659841
+"Anthropic","Claude",0.596285
+"Anthropic","2021",0.555556
+"Anthropic","San Francisco",0.507151
+"Anthropic","artificial intelligence company",0.483274
+"Aravind Srinivas","Daniel De Freitas",0.559017
+"Aravind Srinivas","Perplexity AI",0.524672
+"Aravind Srinivas","OpenAI",0.469624
+"Aravind Srinivas","Paul Allen",0.447214
+"Aravind Srinivas","Johnny Ho",0.408248
+"Azure AI","Microsoft",0.565334
+"Azure AI","an AI answer engine",0.500000
+"Azure AI","Pi",0.500000
+"Azure AI","conversational agents",0.447214
+"Azure AI","Inflection AI",0.357771
+"Bill Gates","Microsoft",0.606781
+"Bill Gates","Paul Allen",0.600001
+"Bill Gates","Mark Zuckerberg",0.600001
+"Bill Gates","Meta",0.458732
+"Bill Gates","Reid Hoffman",0.447214
+"Character AI","conversational agents",0.685161
+"Character AI","2021",0.669439
+"Character AI","Perplexity AI",0.609499
+"Character AI","Inflection AI",0.600833
+"Character AI","Karen Simonyan",0.589256
+"ChatGPT","GPT models",0.577350
+"ChatGPT","OpenAI",0.553813
+"ChatGPT","San Francisco",0.408248
+"ChatGPT","Sam Altman",0.387298
+"ChatGPT","Llama",0.333333
+"Chris Malachowsky","Nvidia",0.612852
+"Chris Malachowsky","Jensen Huang",0.600001
+"Chris Malachowsky","Curtis Priem",0.600001
+"Chris Malachowsky","Johnny Ho",0.547723
+"Chris Malachowsky","Denis Yarats",0.547723
+"Claude","Anthropic",0.596285
+"Claude","San Francisco",0.408248
+"Claude","artificial intelligence safety company",0.384900
+"Claude","Llama",0.333333
+"Claude","Grok",0.333333
+"Cohere","Ivan Zhang",0.764094
+"Cohere","2019",0.703527
+"Cohere","Sergey Brin",0.674200
+"Cohere","Toronto",0.603023
+"Cohere","Nick Frosst",0.519000
+"Command models","Cohere",0.502519
+"Command models","GPT models",0.500000
+"Command models","Grok",0.288675
+"Command models","Gemini",0.288675
+"Command models","GPUs",0.288675
+"Curtis Priem","Mustafa Suleyman",0.613573
+"Curtis Priem","Nvidia",0.612852
+"Curtis Priem","Jensen Huang",0.600001
+"Curtis Priem","Chris Malachowsky",0.600001
+"Curtis Priem","Daniel De Freitas",0.500000
+"Daniel De Freitas","Nick Frosst",0.692821
+"Daniel De Freitas","Google",0.582086
+"Daniel De Freitas","Aravind Srinivas",0.559017
+"Daniel De Freitas","Karen Simonyan",0.559017
+"Daniel De Freitas","DeepMind",0.507092
+"Daniela Amodei","Dario Amodei",0.733334
+"Daniela Amodei","John Schulman",0.577351
+"Daniela Amodei","Elon Musk",0.547723
+"Daniela Amodei","OpenAI",0.495346
+"Daniela Amodei","Anthropic",0.444445
+"Dario Amodei","Daniela Amodei",0.733334
+"Dario Amodei","OpenAI",0.474706
+"Dario Amodei","Anthropic",0.444445
+"Dario Amodei","Denis Yarats",0.421637
+"Dario Amodei","Daniel De Freitas",0.404145
+"DeepMind","Demis Hassabis",0.755929
+"DeepMind","Shane Legg",0.676124
+"DeepMind","Jensen Huang",0.608512
+"DeepMind","2010",0.604743
+"DeepMind","AlphaGo",0.567366
+"DeepMind in 2014","Google",0.679100
+"DeepMind in 2014","DeepMind",0.473287
+"DeepMind in 2014","London",0.447214
+"DeepMind in 2014","2010",0.447214
+"DeepMind in 2014","1998",0.447214
+"Demis Hassabis","DeepMind",0.755929
+"Demis Hassabis","Shane Legg",0.447214
+"Demis Hassabis","Jensen Huang",0.447214
+"Demis Hassabis","Noam Shazeer",0.433013
+"Demis Hassabis","OpenAI",0.379696
+"Denis Yarats","Perplexity AI",0.795586
+"Denis Yarats","Johnny Ho",0.666666
+"Denis Yarats","Andy Konwinski",0.666666
+"Denis Yarats","Karen Simonyan",0.612372
+"Denis Yarats","Shane Legg",0.547723
+"Elon Musk","Elon Musk ",0.737866
+"Elon Musk","John Schulman",0.632457
+"Elon Musk","Daniela Amodei",0.547723
+"Elon Musk","Wojciech Zaremba",0.527047
+"Elon Musk","Ilya Sutskever",0.527047
+"Elon Musk ","Elon Musk",0.737866
+"Elon Musk ","John Schulman",0.600001
+"Elon Musk ","OpenAI",0.536228
+"Elon Musk ","2015",0.447214
+"Elon Musk ","Wojciech Zaremba",0.400001
+"GPT models","ChatGPT",0.577350
+"GPT models","OpenAI",0.519585
+"GPT models","Command models",0.500000
+"GPT models","San Francisco",0.353554
+"GPT models","Sam Altman",0.335410
+"GPUs","Nvidia",0.514272
+"GPUs","Llama",0.333333
+"GPUs","Grok",0.333333
+"GPUs","Gemini",0.333333
+"GPUs","Claude",0.333333
+"Gemini","Google",0.500980
+"Gemini","Llama",0.333333
+"Gemini","Grok",0.333333
+"Gemini","GPUs",0.333333
+"Gemini","Claude",0.333333
+"Google","DeepMind in 2014",0.679100
+"Google","1998",0.623675
+"Google","Nick Frosst",0.588118
+"Google","Mountain View",0.582086
+"Google","Daniel De Freitas",0.582086
+"Greg Brockman","2015",0.670821
+"Greg Brockman","OpenAI",0.661348
+"Greg Brockman","Wojciech Zaremba",0.600001
+"Greg Brockman","John Schulman",0.600001
+"Greg Brockman","Ilya Sutskever",0.600001
+"Grok","xAI",0.640512
+"Grok","the San Francisco Bay Area",0.408248
+"Grok","Llama",0.333333
+"Grok","Gemini",0.333333
+"Grok","GPUs",0.333333
+"Ilya Sutskever","OpenAI",0.643473
+"Ilya Sutskever","Wojciech Zaremba",0.600001
+"Ilya Sutskever","John Schulman",0.600001
+"Ilya Sutskever","Greg Brockman",0.600001
+"Ilya Sutskever","Elon Musk",0.527047
+"Inflection AI","Karen Simonyan",0.894427
+"Inflection AI","Reid Hoffman",0.670821
+"Inflection AI","Pi",0.670820
+"Inflection AI","2022",0.653538
+"Inflection AI","Perplexity AI",0.616769
+"Instagram","WhatsApp",0.666666
+"Instagram","Meta",0.646058
+"Instagram","Llama",0.333333
+"Instagram","2004",0.288675
+"Instagram","Yann LeCun",0.258199
+"Ivan Zhang","Sergey Brin",0.800001
+"Ivan Zhang","Cohere",0.764094
+"Ivan Zhang","Reid Hoffman",0.447214
+"Ivan Zhang","Karen Simonyan",0.447214
+"Ivan Zhang","2019",0.447214
+"Jensen Huang","Nvidia",0.612852
+"Jensen Huang","DeepMind",0.608512
+"Jensen Huang","Shane Legg",0.600001
+"Jensen Huang","Curtis Priem",0.600001
+"Jensen Huang","Chris Malachowsky",0.600001
+"John Schulman","OpenAI",0.661348
+"John Schulman","Elon Musk",0.632457
+"John Schulman","Wojciech Zaremba",0.600001
+"John Schulman","Ilya Sutskever",0.600001
+"John Schulman","Greg Brockman",0.600001
+"Johnny Ho","Perplexity AI",0.826186
+"Johnny Ho","Denis Yarats",0.666666
+"Johnny Ho","Andy Konwinski",0.666666
+"Johnny Ho","Reid Hoffman",0.612372
+"Johnny Ho","Karen Simonyan",0.612372
+"Karen Simonyan","Inflection AI",0.894427
+"Karen Simonyan","Reid Hoffman",0.750000
+"Karen Simonyan","Perplexity AI",0.637102
+"Karen Simonyan","Johnny Ho",0.612372
+"Karen Simonyan","Denis Yarats",0.612372
+"Larry Page","Wojciech Zaremba",0.600001
+"Larry Page","Sergey Brin",0.600001
+"Larry Page","Google",0.557832
+"Larry Page","Daniel De Freitas",0.500000
+"Larry Page","Reid Hoffman",0.447214
+"Llama","Meta",0.646058
+"Llama","2004",0.577350
+"Llama","WhatsApp",0.333333
+"Llama","Instagram",0.333333
+"Llama","Grok",0.333333
+"London","DeepMind",0.529150
+"London","Toronto",0.500000
+"London","Redmond",0.500000
+"London","2010",0.500000
+"London","San Francisco",0.471405
+"Mark Zuckerberg","Bill Gates",0.600001
+"Mark Zuckerberg","Meta",0.542137
+"Mark Zuckerberg","Reid Hoffman",0.447214
+"Mark Zuckerberg","Karen Simonyan",0.447214
+"Mark Zuckerberg","2004",0.447214
+"Menlo Park","Meta",0.583840
+"Menlo Park","Toronto",0.447214
+"Menlo Park","Redmond",0.447214
+"Menlo Park","2004",0.447214
+"Menlo Park","San Francisco",0.421638
+"Meta","2004",0.699378
+"Meta","WhatsApp",0.646058
+"Meta","Llama",0.646058
+"Meta","Instagram",0.646058
+"Meta","Menlo Park",0.583840
+"Microsoft","1975",0.678401
+"Microsoft","Bill Gates",0.606781
+"Microsoft","Paul Allen",0.573071
+"Microsoft","Redmond",0.565334
+"Microsoft","Azure AI",0.565334
+"Mountain View","Google",0.582086
+"Mountain View","Toronto",0.447214
+"Mountain View","Redmond",0.447214
+"Mountain View","London",0.447214
+"Mountain View","1998",0.447214
+"Mustafa Suleyman","Curtis Priem",0.613573
+"Mustafa Suleyman","Karen Simonyan",0.600245
+"Mustafa Suleyman","Inflection AI",0.567555
+"Mustafa Suleyman","DeepMind",0.518563
+"Mustafa Suleyman","Reid Hoffman",0.514496
+"Nick Frosst","Daniel De Freitas",0.692821
+"Nick Frosst","Google",0.588118
+"Nick Frosst","Cohere",0.519000
+"Nick Frosst","Aidan Gomez",0.466667
+"Nick Frosst","Sergey Brin",0.461881
+"Noam Shazeer","Google",0.500979
+"Noam Shazeer","Character AI",0.476290
+"Noam Shazeer","Demis Hassabis",0.433013
+"Noam Shazeer","DeepMind",0.392792
+"Noam Shazeer","Daniel De Freitas",0.387298
+"Nvidia","Jensen Huang",0.612852
+"Nvidia","Curtis Priem",0.612852
+"Nvidia","Chris Malachowsky",0.612852
+"Nvidia","1993",0.548151
+"Nvidia","Amazon",0.520022
+"OpenAI","Sam Altman",0.750718
+"OpenAI","2015",0.699441
+"OpenAI","Greg Brockman",0.661348
+"OpenAI","John Schulman",0.661348
+"OpenAI","Ilya Sutskever",0.643473
+"Paul Allen","Bill Gates",0.600001
+"Paul Allen","Microsoft",0.573071
+"Paul Allen","Reid Hoffman",0.447214
+"Paul Allen","Karen Simonyan",0.447214
+"Paul Allen","Aravind Srinivas",0.447214
+"Perplexity AI","Johnny Ho",0.826186
+"Perplexity AI","Denis Yarats",0.795586
+"Perplexity AI","Andy Konwinski",0.795586
+"Perplexity AI","an AI answer engine",0.724547
+"Perplexity AI","2022",0.688999
+"Pi","Inflection AI",0.670820
+"Pi","an AI answer engine",0.500000
+"Pi","Karen Simonyan",0.500000
+"Pi","Azure AI",0.500000
+"Pi","conversational agents",0.447214
+"Redmond","Microsoft",0.565334
+"Redmond","Toronto",0.500000
+"Redmond","London",0.500000
+"Redmond","1975",0.500000
+"Redmond","San Francisco",0.471405
+"Reid Hoffman","Karen Simonyan",0.750000
+"Reid Hoffman","Inflection AI",0.670821
+"Reid Hoffman","Johnny Ho",0.612372
+"Reid Hoffman","Mustafa Suleyman",0.514496
+"Reid Hoffman","Elon Musk",0.471405
+"Sam Altman","OpenAI",0.750718
+"Sam Altman","Wojciech Zaremba",0.500000
+"Sam Altman","Ilya Sutskever",0.500000
+"Sam Altman","Greg Brockman",0.500000
+"Sam Altman","2015",0.447213
+"San Francisco","the San Francisco Bay Area",0.666667
+"San Francisco","Anthropic",0.507151
+"San Francisco","Toronto",0.471405
+"San Francisco","Redmond",0.471405
+"San Francisco","London",0.471405
+"Sergey Brin","Ivan Zhang",0.800001
+"Sergey Brin","Cohere",0.674200
+"Sergey Brin","Wojciech Zaremba",0.600001
+"Sergey Brin","Larry Page",0.600001
+"Sergey Brin","Google",0.509326
+"Shane Legg","DeepMind",0.676124
+"Shane Legg","Jensen Huang",0.600001
+"Shane Legg","Denis Yarats",0.547723
+"Shane Legg","Daniel De Freitas",0.500000
+"Shane Legg","Mustafa Suleyman",0.460180
+"Toronto","Cohere",0.603023
+"Toronto","Redmond",0.500000
+"Toronto","London",0.500000
+"Toronto","2019",0.500000
+"Toronto","San Francisco",0.471405
+"WhatsApp","Instagram",0.666666
+"WhatsApp","Meta",0.646058
+"WhatsApp","Llama",0.333333
+"WhatsApp","2004",0.288675
+"WhatsApp","Yann LeCun",0.258199
+"Wojciech Zaremba","OpenAI",0.643473
+"Wojciech Zaremba","Sergey Brin",0.600001
+"Wojciech Zaremba","Larry Page",0.600001
+"Wojciech Zaremba","John Schulman",0.600001
+"Wojciech Zaremba","Ilya Sutskever",0.600001
+"Yann LeCun","Meta",0.500434
+"Yann LeCun","WhatsApp",0.258199
+"Yann LeCun","Noam Shazeer",0.258199
+"Yann LeCun","Llama",0.258199
+"Yann LeCun","Instagram",0.258199
+"an AI answer engine","Perplexity AI",0.724547
+"an AI answer engine","2022",0.549972
+"an AI answer engine","Johnny Ho",0.544331
+"an AI answer engine","Pi",0.500000
+"an AI answer engine","Azure AI",0.500000
+"artificial intelligence company","artificial intelligence safety company",0.863868
+"artificial intelligence company","artificial intelligence search company",0.824643
+"artificial intelligence company","artificial intelligence research company",0.816278
+"artificial intelligence company","technology company",0.628556
+"artificial intelligence company","Anthropic",0.483274
+"artificial intelligence research company","artificial intelligence company",0.816278
+"artificial intelligence research company","artificial intelligence safety company",0.755928
+"artificial intelligence research company","artificial intelligence search company",0.668152
+"artificial intelligence research company","technology company",0.550018
+"artificial intelligence research company","DeepMind",0.514285
+"artificial intelligence safety company","artificial intelligence company",0.863868
+"artificial intelligence safety company","artificial intelligence research company",0.755928
+"artificial intelligence safety company","artificial intelligence search company",0.707106
+"artificial intelligence safety company","Anthropic",0.659841
+"artificial intelligence safety company","technology company",0.646761
+"artificial intelligence search company","artificial intelligence company",0.824643
+"artificial intelligence search company","artificial intelligence safety company",0.707106
+"artificial intelligence search company","artificial intelligence research company",0.668152
+"artificial intelligence search company","Perplexity AI",0.556498
+"artificial intelligence search company","technology company",0.514495
+"conversational agents","Character AI",0.685161
+"conversational agents","an AI answer engine",0.447214
+"conversational agents","Pi",0.447214
+"conversational agents","Azure AI",0.447214
+"conversational agents","Inflection AI",0.320000
+"technology company","artificial intelligence safety company",0.646761
+"technology company","artificial intelligence company",0.628556
+"technology company","artificial intelligence research company",0.550018
+"technology company","artificial intelligence search company",0.514495
+"technology company","Anthropic",0.469668
+"the San Francisco Bay Area","xAI",0.686405
+"the San Francisco Bay Area","San Francisco",0.666667
+"the San Francisco Bay Area","Grok",0.408248
+"the San Francisco Bay Area","Toronto",0.353553
+"the San Francisco Bay Area","Redmond",0.353553
+"xAI","2023",0.693375
+"xAI","the San Francisco Bay Area",0.686405
+"xAI","Grok",0.640512
+"xAI","Elon Musk",0.490290
+"xAI","Anthropic",0.441604

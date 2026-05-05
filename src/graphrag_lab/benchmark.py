@@ -29,7 +29,7 @@ def run_benchmark(
 
         start = time.perf_counter()
         flat_answer = flat_rag.answer(question)
-        flat_latency = int((time.perf_counter() - start) * 1000)
+        flat_latency = (time.perf_counter() - start) * 1000
         flat_docs = flat_rag.retrieve(question)
         flat_context = "\n".join(doc["text"] for doc in flat_docs)
         _, _, flat_cost = estimate_call_cost(
@@ -39,7 +39,7 @@ def run_benchmark(
 
         start = time.perf_counter()
         graph_answer = answer_with_graph(question, graph)
-        graph_latency = int((time.perf_counter() - start) * 1000)
+        graph_latency = (time.perf_counter() - start) * 1000
         seeds = graph.find_nodes(question)
         graph_context = graph.textualize(graph.neighborhood(seeds[:3], hops=2))
         _, _, graph_cost = estimate_call_cost(

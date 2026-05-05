@@ -21,6 +21,10 @@ RESULTS_PATH = ROOT / "reports" / "benchmarks" / "results.csv"
 TRIPLES_PATH = ROOT / "data" / "processed" / "triples.csv"
 CORPUS_PATH = ROOT / "data" / "raw" / "tech_company_corpus.txt"
 REPORT_PATH = ROOT / "reports" / "report.md"
+EMBEDDINGS_PATH = ROOT / "data" / "embeddings" / "node_embeddings.json"
+SIMILARITY_PATH = ROOT / "data" / "embeddings" / "node_similarity.csv"
+NETWORKX_PNG_PATH = ROOT / "reports" / "figures" / "knowledge_graph_networkx.png"
+SVG_PATH = ROOT / "reports" / "figures" / "knowledge_graph.svg"
 
 
 def read_results() -> list[BenchmarkResult]:
@@ -34,8 +38,8 @@ def read_results() -> list[BenchmarkResult]:
             graphrag_answer=row["graphrag_answer"],
             flat_rag_correct=row["flat_rag_correct"].lower() == "true",
             graphrag_correct=row["graphrag_correct"].lower() == "true",
-            flat_rag_latency_ms=int(row["flat_rag_latency_ms"]),
-            graphrag_latency_ms=int(row["graphrag_latency_ms"]),
+            flat_rag_latency_ms=float(row["flat_rag_latency_ms"]),
+            graphrag_latency_ms=float(row["graphrag_latency_ms"]),
             flat_rag_cost_usd=float(row["flat_rag_cost_usd"]),
             graphrag_cost_usd=float(row["graphrag_cost_usd"]),
             notes=row["notes"],
@@ -64,7 +68,9 @@ def main() -> None:
 
 - Corpus: offline Tech Company Corpus sample in `data/raw/tech_company_corpus.txt` with 12 company summaries, enough for the 10-document lab scope
 - Entity/relation extraction: deterministic rule-based extraction for reproducible lab demo
+- Optional LLM-based NER: `scripts/extract_triples_llm.py --provider openai` or `--provider groq`
 - Graph backend: local directed knowledge graph exported as GraphML
+- Node embeddings: local hashed vectors from each node neighborhood
 - Flat RAG backend: lexical top-k retrieval baseline
 - GraphRAG retrieval strategy: seed-node matching + 2-hop BFS + graph fact synthesis
 
@@ -74,6 +80,9 @@ def main() -> None:
 - Edges/triples: {len(triples)}
 - Graph export: `data/processed/knowledge_graph.graphml`
 - Text visualization: `reports/figures/knowledge_graph_edges.txt`
+- Node embeddings: `{EMBEDDINGS_PATH.relative_to(ROOT)}`
+- Node similarity table: `{SIMILARITY_PATH.relative_to(ROOT)}`
+- Visualization image: `{(NETWORKX_PNG_PATH if NETWORKX_PNG_PATH.exists() else SVG_PATH).relative_to(ROOT)}`
 
 ## 3. Benchmark Summary
 
