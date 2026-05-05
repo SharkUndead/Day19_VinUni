@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key id="label" for="all" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed">
+<node id="n0"><data key="label">1975</data></node>
+<node id="n1"><data key="label">1993</data></node>
+<node id="n2"><data key="label">1998</data></node>
+<node id="n3"><data key="label">2004</data></node>
+<node id="n4"><data key="label">2010</data></node>
+<node id="n5"><data key="label">2015</data></node>
+<node id="n6"><data key="label">2019</data></node>
+<node id="n7"><data key="label">2021</data></node>
+<node id="n8"><data key="label">2022</data></node>
+<node id="n9"><data key="label">2023</data></node>
+<node id="n10"><data key="label">Aidan Gomez</data></node>
+<node id="n11"><data key="label">AlphaFold</data></node>
+<node id="n12"><data key="label">AlphaGo</data></node>
+<node id="n13"><data key="label">Amazon</data></node>
+<node id="n14"><data key="label">Andy Konwinski</data></node>
+<node id="n15"><data key="label">Anthropic</data></node>
+<node id="n16"><data key="label">Aravind Srinivas</data></node>
+<node id="n17"><data key="label">Azure AI</data></node>
+<node id="n18"><data key="label">Bill Gates</data></node>
+<node id="n19"><data key="label">Character AI</data></node>
+<node id="n20"><data key="label">ChatGPT</data></node>
+<node id="n21"><data key="label">Chris Malachowsky</data></node>
+<node id="n22"><data key="label">Claude</data></node>
+<node id="n23"><data key="label">Cohere</data></node>
+<node id="n24"><data key="label">Command models</data></node>
+<node id="n25"><data key="label">Curtis Priem</data></node>
+<node id="n26"><data key="label">Daniel De Freitas</data></node>
+<node id="n27"><data key="label">Daniela Amodei</data></node>
+<node id="n28"><data key="label">Dario Amodei</data></node>
+<node id="n29"><data key="label">DeepMind</data></node>
+<node id="n30"><data key="label">DeepMind in 2014</data></node>
+<node id="n31"><data key="label">Demis Hassabis</data></node>
+<node id="n32"><data key="label">Denis Yarats</data></node>
+<node id="n33"><data key="label">Elon Musk</data></node>
+<node id="n34"><data key="label">Elon Musk </data></node>
+<node id="n35"><data key="label">GPT models</data></node>
+<node id="n36"><data key="label">GPUs</data></node>
+<node id="n37"><data key="label">Gemini</data></node>
+<node id="n38"><data key="label">Google</data></node>
+<node id="n39"><data key="label">Greg Brockman</data></node>
+<node id="n40"><data key="label">Grok</data></node>
+<node id="n41"><data key="label">Ilya Sutskever</data></node>
+<node id="n42"><data key="label">Inflection AI</data></node>
+<node id="n43"><data key="label">Instagram</data></node>
+<node id="n44"><data key="label">Ivan Zhang</data></node>
+<node id="n45"><data key="label">Jensen Huang</data></node>
+<node id="n46"><data key="label">John Schulman</data></node>
+<node id="n47"><data key="label">Johnny Ho</data></node>
+<node id="n48"><data key="label">Karen Simonyan</data></node>
+<node id="n49"><data key="label">Larry Page</data></node>
+<node id="n50"><data key="label">Llama</data></node>
+<node id="n51"><data key="label">London</data></node>
+<node id="n52"><data key="label">Mark Zuckerberg</data></node>
+<node id="n53"><data key="label">Menlo Park</data></node>
+<node id="n54"><data key="label">Meta</data></node>
+<node id="n55"><data key="label">Microsoft</data></node>
+<node id="n56"><data key="label">Mountain View</data></node>
+<node id="n57"><data key="label">Mustafa Suleyman</data></node>
+<node id="n58"><data key="label">Nick Frosst</data></node>
+<node id="n59"><data key="label">Noam Shazeer</data></node>
+<node id="n60"><data key="label">Nvidia</data></node>
+<node id="n61"><data key="label">OpenAI</data></node>
+<node id="n62"><data key="label">Paul Allen</data></node>
+<node id="n63"><data key="label">Perplexity AI</data></node>
+<node id="n64"><data key="label">Pi</data></node>
+<node id="n65"><data key="label">Redmond</data></node>
+<node id="n66"><data key="label">Reid Hoffman</data></node>
+<node id="n67"><data key="label">Sam Altman</data></node>
+<node id="n68"><data key="label">San Francisco</data></node>
+<node id="n69"><data key="label">Sergey Brin</data></node>
+<node id="n70"><data key="label">Shane Legg</data></node>
+<node id="n71"><data key="label">Toronto</data></node>
+<node id="n72"><data key="label">WhatsApp</data></node>
+<node id="n73"><data key="label">Wojciech Zaremba</data></node>
+<node id="n74"><data key="label">Yann LeCun</data></node>
+<node id="n75"><data key="label">an AI answer engine</data></node>
+<node id="n76"><data key="label">artificial intelligence company</data></node>
+<node id="n77"><data key="label">artificial intelligence research company</data></node>
+<node id="n78"><data key="label">artificial intelligence safety company</data></node>
+<node id="n79"><data key="label">artificial intelligence search company</data></node>
+<node id="n80"><data key="label">conversational agents</data></node>
+<node id="n81"><data key="label">technology company</data></node>
+<node id="n82"><data key="label">the San Francisco Bay Area</data></node>
+<node id="n83"><data key="label">xAI</data></node>
+<edge id="e0" source="n61" target="n76"><data key="label">IS_A</data></edge>
+<edge id="e1" source="n61" target="n67"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e2" source="n61" target="n39"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e3" source="n61" target="n41"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e4" source="n61" target="n73"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e5" source="n61" target="n46"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e6" source="n61" target="n33"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e7" source="n61" target="n5"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e8" source="n61" target="n20"><data key="label">DEVELOPS</data></edge>
+<edge id="e9" source="n61" target="n35"><data key="label">DEVELOPS</data></edge>
+<edge id="e10" source="n67" target="n61"><data key="label">CEO_OF</data></edge>
+<edge id="e11" source="n61" target="n55"><data key="label">PARTNERED_WITH</data></edge>
+<edge id="e12" source="n55" target="n61"><data key="label">INVESTED_IN</data></edge>
+<edge id="e13" source="n61" target="n68"><data key="label">BASED_IN</data></edge>
+<edge id="e14" source="n15" target="n78"><data key="label">IS_A</data></edge>
+<edge id="e15" source="n15" target="n28"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e16" source="n15" target="n27"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e17" source="n15" target="n7"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e18" source="n28" target="n61"><data key="label">FORMERLY_WORKED_AT</data></edge>
+<edge id="e19" source="n27" target="n61"><data key="label">FORMERLY_WORKED_AT</data></edge>
+<edge id="e20" source="n15" target="n22"><data key="label">DEVELOPS</data></edge>
+<edge id="e21" source="n13" target="n15"><data key="label">INVESTED_IN</data></edge>
+<edge id="e22" source="n38" target="n15"><data key="label">INVESTED_IN</data></edge>
+<edge id="e23" source="n15" target="n68"><data key="label">BASED_IN</data></edge>
+<edge id="e24" source="n29" target="n77"><data key="label">IS_A</data></edge>
+<edge id="e25" source="n29" target="n31"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e26" source="n29" target="n70"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e27" source="n29" target="n57"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e28" source="n29" target="n4"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e29" source="n38" target="n30"><data key="label">ACQUIRED</data></edge>
+<edge id="e30" source="n29" target="n12"><data key="label">DEVELOPS</data></edge>
+<edge id="e31" source="n29" target="n11"><data key="label">DEVELOPS</data></edge>
+<edge id="e32" source="n31" target="n29"><data key="label">CEO_OF</data></edge>
+<edge id="e33" source="n29" target="n51"><data key="label">BASED_IN</data></edge>
+<edge id="e34" source="n38" target="n81"><data key="label">IS_A</data></edge>
+<edge id="e35" source="n38" target="n49"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e36" source="n38" target="n69"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e37" source="n38" target="n2"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e38" source="n38" target="n29"><data key="label">ACQUIRED</data></edge>
+<edge id="e39" source="n38" target="n37"><data key="label">DEVELOPS</data></edge>
+<edge id="e40" source="n38" target="n56"><data key="label">BASED_IN</data></edge>
+<edge id="e41" source="n55" target="n81"><data key="label">IS_A</data></edge>
+<edge id="e42" source="n55" target="n18"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e43" source="n55" target="n62"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e44" source="n55" target="n0"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e45" source="n55" target="n61"><data key="label">PARTNERED_WITH</data></edge>
+<edge id="e46" source="n55" target="n17"><data key="label">DEVELOPS</data></edge>
+<edge id="e47" source="n55" target="n65"><data key="label">BASED_IN</data></edge>
+<edge id="e48" source="n54" target="n81"><data key="label">IS_A</data></edge>
+<edge id="e49" source="n54" target="n52"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e50" source="n54" target="n3"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e51" source="n54" target="n50"><data key="label">DEVELOPS</data></edge>
+<edge id="e52" source="n54" target="n72"><data key="label">ACQUIRED</data></edge>
+<edge id="e53" source="n54" target="n43"><data key="label">ACQUIRED</data></edge>
+<edge id="e54" source="n74" target="n54"><data key="label">WORKS_AT</data></edge>
+<edge id="e55" source="n54" target="n53"><data key="label">BASED_IN</data></edge>
+<edge id="e56" source="n83" target="n76"><data key="label">IS_A</data></edge>
+<edge id="e57" source="n83" target="n33"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e58" source="n83" target="n9"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e59" source="n34" target="n61"><data key="label">CO_FOUNDED</data></edge>
+<edge id="e60" source="n83" target="n40"><data key="label">DEVELOPS</data></edge>
+<edge id="e61" source="n83" target="n82"><data key="label">BASED_IN</data></edge>
+<edge id="e62" source="n42" target="n76"><data key="label">IS_A</data></edge>
+<edge id="e63" source="n42" target="n57"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e64" source="n42" target="n66"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e65" source="n42" target="n48"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e66" source="n42" target="n8"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e67" source="n57" target="n29"><data key="label">CO_FOUNDED</data></edge>
+<edge id="e68" source="n42" target="n64"><data key="label">DEVELOPS</data></edge>
+<edge id="e69" source="n55" target="n42"><data key="label">HIRED_FROM</data></edge>
+<edge id="e70" source="n23" target="n76"><data key="label">IS_A</data></edge>
+<edge id="e71" source="n23" target="n10"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e72" source="n23" target="n44"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e73" source="n23" target="n58"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e74" source="n23" target="n6"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e75" source="n10" target="n38"><data key="label">FORMERLY_WORKED_AT</data></edge>
+<edge id="e76" source="n58" target="n38"><data key="label">FORMERLY_WORKED_AT</data></edge>
+<edge id="e77" source="n23" target="n24"><data key="label">DEVELOPS</data></edge>
+<edge id="e78" source="n23" target="n71"><data key="label">BASED_IN</data></edge>
+<edge id="e79" source="n19" target="n76"><data key="label">IS_A</data></edge>
+<edge id="e80" source="n19" target="n59"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e81" source="n19" target="n26"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e82" source="n19" target="n7"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e83" source="n59" target="n38"><data key="label">FORMERLY_WORKED_AT</data></edge>
+<edge id="e84" source="n26" target="n38"><data key="label">FORMERLY_WORKED_AT</data></edge>
+<edge id="e85" source="n19" target="n80"><data key="label">DEVELOPS</data></edge>
+<edge id="e86" source="n63" target="n79"><data key="label">IS_A</data></edge>
+<edge id="e87" source="n63" target="n16"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e88" source="n63" target="n32"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e89" source="n63" target="n47"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e90" source="n63" target="n14"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e91" source="n63" target="n8"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e92" source="n16" target="n61"><data key="label">FORMERLY_WORKED_AT</data></edge>
+<edge id="e93" source="n63" target="n75"><data key="label">DEVELOPS</data></edge>
+<edge id="e94" source="n60" target="n81"><data key="label">IS_A</data></edge>
+<edge id="e95" source="n60" target="n45"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e96" source="n60" target="n21"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e97" source="n60" target="n25"><data key="label">FOUNDED_BY</data></edge>
+<edge id="e98" source="n60" target="n1"><data key="label">FOUNDED_IN</data></edge>
+<edge id="e99" source="n60" target="n36"><data key="label">DEVELOPS</data></edge>
+<edge id="e100" source="n60" target="n61"><data key="label">SUPPLIES_TO</data></edge>
+<edge id="e101" source="n60" target="n55"><data key="label">SUPPLIES_TO</data></edge>
+<edge id="e102" source="n60" target="n38"><data key="label">SUPPLIES_TO</data></edge>
+<edge id="e103" source="n60" target="n54"><data key="label">SUPPLIES_TO</data></edge>
+<edge id="e104" source="n60" target="n13"><data key="label">SUPPLIES_TO</data></edge>
+</graph>
+</graphml>

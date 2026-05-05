@@ -1,0 +1,106 @@
+subject,predicate,object,source
+OpenAI,IS_A,artificial intelligence company,OpenAI
+OpenAI,FOUNDED_BY,Sam Altman,OpenAI
+OpenAI,FOUNDED_BY,Greg Brockman,OpenAI
+OpenAI,FOUNDED_BY,Ilya Sutskever,OpenAI
+OpenAI,FOUNDED_BY,Wojciech Zaremba,OpenAI
+OpenAI,FOUNDED_BY,John Schulman,OpenAI
+OpenAI,FOUNDED_BY,Elon Musk,OpenAI
+OpenAI,FOUNDED_IN,2015,OpenAI
+OpenAI,DEVELOPS,ChatGPT,OpenAI
+OpenAI,DEVELOPS,GPT models,OpenAI
+Sam Altman,CEO_OF,OpenAI,OpenAI
+OpenAI,PARTNERED_WITH,Microsoft,OpenAI
+Microsoft,INVESTED_IN,OpenAI,OpenAI
+OpenAI,BASED_IN,San Francisco,OpenAI
+Anthropic,IS_A,artificial intelligence safety company,Anthropic
+Anthropic,FOUNDED_BY,Dario Amodei,Anthropic
+Anthropic,FOUNDED_BY,Daniela Amodei,Anthropic
+Anthropic,FOUNDED_IN,2021,Anthropic
+Dario Amodei,FORMERLY_WORKED_AT,OpenAI,Anthropic
+Daniela Amodei,FORMERLY_WORKED_AT,OpenAI,Anthropic
+Anthropic,DEVELOPS,Claude,Anthropic
+Amazon,INVESTED_IN,Anthropic,Anthropic
+Google,INVESTED_IN,Anthropic,Anthropic
+Anthropic,BASED_IN,San Francisco,Anthropic
+DeepMind,IS_A,artificial intelligence research company,DeepMind
+DeepMind,FOUNDED_BY,Demis Hassabis,DeepMind
+DeepMind,FOUNDED_BY,Shane Legg,DeepMind
+DeepMind,FOUNDED_BY,Mustafa Suleyman,DeepMind
+DeepMind,FOUNDED_IN,2010,DeepMind
+Google,ACQUIRED,DeepMind in 2014,DeepMind
+DeepMind,DEVELOPS,AlphaGo,DeepMind
+DeepMind,DEVELOPS,AlphaFold,DeepMind
+Demis Hassabis,CEO_OF,DeepMind,DeepMind
+DeepMind,BASED_IN,London,DeepMind
+Google,IS_A,technology company,Google
+Google,FOUNDED_BY,Larry Page,Google
+Google,FOUNDED_BY,Sergey Brin,Google
+Google,FOUNDED_IN,1998,Google
+Google,ACQUIRED,DeepMind,Google
+Google,DEVELOPS,Gemini,Google
+Google,BASED_IN,Mountain View,Google
+Microsoft,IS_A,technology company,Microsoft
+Microsoft,FOUNDED_BY,Bill Gates,Microsoft
+Microsoft,FOUNDED_BY,Paul Allen,Microsoft
+Microsoft,FOUNDED_IN,1975,Microsoft
+Microsoft,PARTNERED_WITH,OpenAI,Microsoft
+Microsoft,DEVELOPS,Azure AI,Microsoft
+Microsoft,BASED_IN,Redmond,Microsoft
+Meta,IS_A,technology company,Meta
+Meta,FOUNDED_BY,Mark Zuckerberg,Meta
+Meta,FOUNDED_IN,2004,Meta
+Meta,DEVELOPS,Llama,Meta
+Meta,ACQUIRED,WhatsApp,Meta
+Meta,ACQUIRED,Instagram,Meta
+Yann LeCun,WORKS_AT,Meta,Meta
+Meta,BASED_IN,Menlo Park,Meta
+xAI,IS_A,artificial intelligence company,xAI
+xAI,FOUNDED_BY,Elon Musk,xAI
+xAI,FOUNDED_IN,2023,xAI
+Elon Musk ,CO_FOUNDED,OpenAI,xAI
+xAI,DEVELOPS,Grok,xAI
+xAI,BASED_IN,the San Francisco Bay Area,xAI
+Inflection AI,IS_A,artificial intelligence company,Inflection AI
+Inflection AI,FOUNDED_BY,Mustafa Suleyman,Inflection AI
+Inflection AI,FOUNDED_BY,Reid Hoffman,Inflection AI
+Inflection AI,FOUNDED_BY,Karen Simonyan,Inflection AI
+Inflection AI,FOUNDED_IN,2022,Inflection AI
+Mustafa Suleyman,CO_FOUNDED,DeepMind,Inflection AI
+Inflection AI,DEVELOPS,Pi,Inflection AI
+Microsoft,HIRED_FROM,Inflection AI,Inflection AI
+Cohere,IS_A,artificial intelligence company,Cohere
+Cohere,FOUNDED_BY,Aidan Gomez,Cohere
+Cohere,FOUNDED_BY,Ivan Zhang,Cohere
+Cohere,FOUNDED_BY,Nick Frosst,Cohere
+Cohere,FOUNDED_IN,2019,Cohere
+Aidan Gomez,FORMERLY_WORKED_AT,Google,Cohere
+Nick Frosst,FORMERLY_WORKED_AT,Google,Cohere
+Cohere,DEVELOPS,Command models,Cohere
+Cohere,BASED_IN,Toronto,Cohere
+Character AI,IS_A,artificial intelligence company,Character AI
+Character AI,FOUNDED_BY,Noam Shazeer,Character AI
+Character AI,FOUNDED_BY,Daniel De Freitas,Character AI
+Character AI,FOUNDED_IN,2021,Character AI
+Noam Shazeer,FORMERLY_WORKED_AT,Google,Character AI
+Daniel De Freitas,FORMERLY_WORKED_AT,Google,Character AI
+Character AI,DEVELOPS,conversational agents,Character AI
+Perplexity AI,IS_A,artificial intelligence search company,Perplexity AI
+Perplexity AI,FOUNDED_BY,Aravind Srinivas,Perplexity AI
+Perplexity AI,FOUNDED_BY,Denis Yarats,Perplexity AI
+Perplexity AI,FOUNDED_BY,Johnny Ho,Perplexity AI
+Perplexity AI,FOUNDED_BY,Andy Konwinski,Perplexity AI
+Perplexity AI,FOUNDED_IN,2022,Perplexity AI
+Aravind Srinivas,FORMERLY_WORKED_AT,OpenAI,Perplexity AI
+Perplexity AI,DEVELOPS,an AI answer engine,Perplexity AI
+Nvidia,IS_A,technology company,Nvidia
+Nvidia,FOUNDED_BY,Jensen Huang,Nvidia
+Nvidia,FOUNDED_BY,Chris Malachowsky,Nvidia
+Nvidia,FOUNDED_BY,Curtis Priem,Nvidia
+Nvidia,FOUNDED_IN,1993,Nvidia
+Nvidia,DEVELOPS,GPUs,Nvidia
+Nvidia,SUPPLIES_TO,OpenAI,Nvidia
+Nvidia,SUPPLIES_TO,Microsoft,Nvidia
+Nvidia,SUPPLIES_TO,Google,Nvidia
+Nvidia,SUPPLIES_TO,Meta,Nvidia
+Nvidia,SUPPLIES_TO,Amazon,Nvidia

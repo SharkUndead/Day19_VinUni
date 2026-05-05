@@ -1,0 +1,10 @@
+[project]
+name = "day-19-graphrag-lab"
+version = "0.1.0"
+description = "Lab Day 19: GraphRAG pipeline over a tech company corpus"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

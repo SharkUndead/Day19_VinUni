@@ -1,0 +1,105 @@
+OpenAI --IS_A--> artificial intelligence company
+OpenAI --FOUNDED_BY--> Sam Altman
+OpenAI --FOUNDED_BY--> Greg Brockman
+OpenAI --FOUNDED_BY--> Ilya Sutskever
+OpenAI --FOUNDED_BY--> Wojciech Zaremba
+OpenAI --FOUNDED_BY--> John Schulman
+OpenAI --FOUNDED_BY--> Elon Musk
+OpenAI --FOUNDED_IN--> 2015
+OpenAI --DEVELOPS--> ChatGPT
+OpenAI --DEVELOPS--> GPT models
+Sam Altman --CEO_OF--> OpenAI
+OpenAI --PARTNERED_WITH--> Microsoft
+Microsoft --INVESTED_IN--> OpenAI
+OpenAI --BASED_IN--> San Francisco
+Anthropic --IS_A--> artificial intelligence safety company
+Anthropic --FOUNDED_BY--> Dario Amodei
+Anthropic --FOUNDED_BY--> Daniela Amodei
+Anthropic --FOUNDED_IN--> 2021
+Dario Amodei --FORMERLY_WORKED_AT--> OpenAI
+Daniela Amodei --FORMERLY_WORKED_AT--> OpenAI
+Anthropic --DEVELOPS--> Claude
+Amazon --INVESTED_IN--> Anthropic
+Google --INVESTED_IN--> Anthropic
+Anthropic --BASED_IN--> San Francisco
+DeepMind --IS_A--> artificial intelligence research company
+DeepMind --FOUNDED_BY--> Demis Hassabis
+DeepMind --FOUNDED_BY--> Shane Legg
+DeepMind --FOUNDED_BY--> Mustafa Suleyman
+DeepMind --FOUNDED_IN--> 2010
+Google --ACQUIRED--> DeepMind in 2014
+DeepMind --DEVELOPS--> AlphaGo
+DeepMind --DEVELOPS--> AlphaFold
+Demis Hassabis --CEO_OF--> DeepMind
+DeepMind --BASED_IN--> London
+Google --IS_A--> technology company
+Google --FOUNDED_BY--> Larry Page
+Google --FOUNDED_BY--> Sergey Brin
+Google --FOUNDED_IN--> 1998
+Google --ACQUIRED--> DeepMind
+Google --DEVELOPS--> Gemini
+Google --BASED_IN--> Mountain View
+Microsoft --IS_A--> technology company
+Microsoft --FOUNDED_BY--> Bill Gates
+Microsoft --FOUNDED_BY--> Paul Allen
+Microsoft --FOUNDED_IN--> 1975
+Microsoft --PARTNERED_WITH--> OpenAI
+Microsoft --DEVELOPS--> Azure AI
+Microsoft --BASED_IN--> Redmond
+Meta --IS_A--> technology company
+Meta --FOUNDED_BY--> Mark Zuckerberg
+Meta --FOUNDED_IN--> 2004
+Meta --DEVELOPS--> Llama
+Meta --ACQUIRED--> WhatsApp
+Meta --ACQUIRED--> Instagram
+Yann LeCun --WORKS_AT--> Meta
+Meta --BASED_IN--> Menlo Park
+xAI --IS_A--> artificial intelligence company
+xAI --FOUNDED_BY--> Elon Musk
+xAI --FOUNDED_IN--> 2023
+Elon Musk  --CO_FOUNDED--> OpenAI
+xAI --DEVELOPS--> Grok
+xAI --BASED_IN--> the San Francisco Bay Area
+Inflection AI --IS_A--> artificial intelligence company
+Inflection AI --FOUNDED_BY--> Mustafa Suleyman
+Inflection AI --FOUNDED_BY--> Reid Hoffman
+Inflection AI --FOUNDED_BY--> Karen Simonyan
+Inflection AI --FOUNDED_IN--> 2022
+Mustafa Suleyman --CO_FOUNDED--> DeepMind
+Inflection AI --DEVELOPS--> Pi
+Microsoft --HIRED_FROM--> Inflection AI
+Cohere --IS_A--> artificial intelligence company
+Cohere --FOUNDED_BY--> Aidan Gomez
+Cohere --FOUNDED_BY--> Ivan Zhang
+Cohere --FOUNDED_BY--> Nick Frosst
+Cohere --FOUNDED_IN--> 2019
+Aidan Gomez --FORMERLY_WORKED_AT--> Google
+Nick Frosst --FORMERLY_WORKED_AT--> Google
+Cohere --DEVELOPS--> Command models
+Cohere --BASED_IN--> Toronto
+Character AI --IS_A--> artificial intelligence company
+Character AI --FOUNDED_BY--> Noam Shazeer
+Character AI --FOUNDED_BY--> Daniel De Freitas
+Character AI --FOUNDED_IN--> 2021
+Noam Shazeer --FORMERLY_WORKED_AT--> Google
+Daniel De Freitas --FORMERLY_WORKED_AT--> Google
+Character AI --DEVELOPS--> conversational agents
+Perplexity AI --IS_A--> artificial intelligence search company
+Perplexity AI --FOUNDED_BY--> Aravind Srinivas
+Perplexity AI --FOUNDED_BY--> Denis Yarats
+Perplexity AI --FOUNDED_BY--> Johnny Ho
+Perplexity AI --FOUNDED_BY--> Andy Konwinski
+Perplexity AI --FOUNDED_IN--> 2022
+Aravind Srinivas --FORMERLY_WORKED_AT--> OpenAI
+Perplexity AI --DEVELOPS--> an AI answer engine
+Nvidia --IS_A--> technology company
+Nvidia --FOUNDED_BY--> Jensen Huang
+Nvidia --FOUNDED_BY--> Chris Malachowsky
+Nvidia --FOUNDED_BY--> Curtis Priem
+Nvidia --FOUNDED_IN--> 1993
+Nvidia --DEVELOPS--> GPUs
+Nvidia --SUPPLIES_TO--> OpenAI
+Nvidia --SUPPLIES_TO--> Microsoft
+Nvidia --SUPPLIES_TO--> Google
+Nvidia --SUPPLIES_TO--> Meta
+Nvidia --SUPPLIES_TO--> Amazon
